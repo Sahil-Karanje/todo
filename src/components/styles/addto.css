@@ -1,0 +1,23 @@
+.inputAdd input:focus{
+    outline: none;
+}
+.inputAdd input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #003b6d;
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+.inputAdd{
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+}
+.inputAdd button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #003b6d;
+    color: white;
+    cursor: pointer;
+}
