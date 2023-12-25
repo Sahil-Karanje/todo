@@ -10,13 +10,13 @@ const AddToDo = () => {
     const handleAdd = (e)=>{
         e.preventDefault()
         dispatch(addToDo(input))
-        setInput('')
+        document.getElementById('inp').value = ''
     }
 
     return (
         <form>
             <div className="inputAdd">
-                <input type="text" onChange={(e) => {setInput(e.target.value)}} />
+                <input id='inp' type="text" onChange={(e) => {setInput(e.target.value)}} />
                 <button onClick={handleAdd}>Add</button>
             </div>
         </form>
